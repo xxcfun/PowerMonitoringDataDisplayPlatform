@@ -1,0 +1,1 @@
+import PageMap from './src/page-map.vue'export default PageMap

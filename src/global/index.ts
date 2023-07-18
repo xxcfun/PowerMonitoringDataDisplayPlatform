@@ -1,0 +1,1 @@
+import { App } from 'vue'import registerProperties from '@/global/register-properties'export function globalRegister(app: App): void {  app.use(registerProperties)}

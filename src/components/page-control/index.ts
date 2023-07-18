@@ -1,0 +1,1 @@
+import PageControl from './src/page-control.vue'export default PageControl

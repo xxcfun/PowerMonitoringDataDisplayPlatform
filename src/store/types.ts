@@ -1,0 +1,1 @@
+export interface IRootState {  name: string}export interface IRootWithModule {}export type IStoreType = IRootState & IRootWithModule

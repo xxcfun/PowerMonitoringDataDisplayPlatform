@@ -1,0 +1,1 @@
+module.exports = {  outputDir: './build',  chainWebpack: (config) => {    config.plugin('html').tap((args) => {      args[0].title = '局部仿真数据可视化平台'      return args    })  },  devServer: {    proxy: {      '^/api': {        target: 'http://192.168.1.187:8000/',        pathRewrite: {          '^/api': ''        },        changeOrigin: true      }    }  }}

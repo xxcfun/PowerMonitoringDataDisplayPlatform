@@ -1,0 +1,1 @@
+import LBox from './src/l-box.vue'export default LBox

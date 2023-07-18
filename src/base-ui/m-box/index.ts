@@ -1,0 +1,1 @@
+import MBox from './src/m-box.vue'export default MBox
